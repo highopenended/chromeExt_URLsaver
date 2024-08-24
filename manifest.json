@@ -1,0 +1,20 @@
+{
+    "manifest_version": 3,
+    "name": "Resource Saver",
+    "version": "1.0",
+    "description": "A simple to-do list extension",
+    "permissions": ["storage","activeTab", "tabs"],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "images/metalBars.png",
+        "48": "images/metalBars.png",
+        "128": "images/metalBars.png"
+      }
+    },
+    "icons": {
+      "16": "images/metalBars.png",
+      "48": "images/metalBars.png",
+      "128": "images/metalBars.png"
+    }
+  }

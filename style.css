@@ -1,0 +1,91 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #075386;
+    color: white;
+    text-align: center;
+    padding: 1px;
+    font-size: 1em;
+    width: 30rem;
+}
+
+
+#urlDisplayBoxOuter{
+    border: 2px solid black;
+    background-color: rgb(32, 31, 31);
+}
+
+#urlDisplayBox{
+    margin-left: 1px;
+    padding: 4px;
+    padding-left: .8em;
+    border-radius: .1em 1.5em .1em .5em;
+    border: 2px solid black;
+    background-color: azure;
+}
+
+#urlDisplay{
+    padding-top: .5em;
+    padding-right: 1em;
+    font-style:normal;
+}
+
+#saveUrlButton{
+    margin-left: 2px;
+    padding: 4px;
+    font-weight: bold;
+}
+
+
+.content {
+    padding: 20px;
+}
+
+.input-container {
+    margin-bottom: 15px;
+}
+
+input[type=&quot;text&quot;] {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    font-size: 1.2em;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #999;
+}
+
+.checkbox {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+button.highlighted{
+    /* filter:brightness(120%);
+    filter: blur(1px); */
+    /* filter:invert(-50%) */
+    /* filter:drop-shadow(0px 0px 2px rgb(28, 77, 67)); */
+    border: 2px solid black;
+    border-radius: 3px;
+    /* filter: contrast(175%) brightness(30%); */
+    
+}
